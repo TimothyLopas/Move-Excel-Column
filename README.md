@@ -1,13 +1,3 @@
-# Template: Standard Robot Framework
+This is a simple example robot that demonstrates to users a few different ways in which they can copy data from one Excel column to another.
 
-Want to get started using [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) this is the simplest template to start from.
-
-This template robot:
-
-- Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
-- Includes all the necessary dependencies and initialization commands (`conda.yaml`).
-- Provides a simple task template to start from (`tasks.robot`).
-
-## Learning materials
-
-- [All docs related to Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
+All files necessary to run this bot are already included. Be sure to review the content of the each file before running to understand what chnages occurred.
