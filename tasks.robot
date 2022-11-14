@@ -1,9 +1,18 @@
 *** Settings ***
-Documentation     A sample script that moves Column A to the end of the workbook.
-Library           RPA.Excel.Files
-Library           RPA.Tables
+Documentation       A sample script that moves Column A to the end of the workbook.
 
-*** Keyword ***
+Library             RPA.Excel.Files
+Library             RPA.Tables
+
+
+*** Tasks ***
+Minimal task
+    Creat new workbook with updated content
+    Update workbook with new column content
+    Update workbook with new column content loop
+
+
+*** Keywords ***
 Creat new workbook with updated content
     Open Workbook    ${CURDIR}${/}Workbook1.xlsx
     ${table}=    Read Worksheet As Table    name=Sheet1    header=True
@@ -51,9 +60,3 @@ Update workbook with new column content loop
     END
     Save Workbook
     Close Workbook
-
-*** Tasks ***
-Minimal task
-    Creat new workbook with updated content
-    Update workbook with new column content
-    Update workbook with new column content loop
