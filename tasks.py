@@ -1,7 +1,3 @@
-# *** Settings ***
-# Documentation       A sample script that moves Column A to the end of the workbook.
-
-# Old example:
 from pathlib import Path
 from os import environ
 
