@@ -1,5 +1,5 @@
 tasks:
-  Run robot tasks:
+  Run with Robot:
     shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
   Run with Python:
     shell: python tasks.py
